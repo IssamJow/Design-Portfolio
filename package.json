@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "trace": "nodemon app.js",
-    "debugExpress" : ""
+    "trace": "nodemon --trace-warnings server.js",
+    "debugExpress": "DEBUG=express:* nodemon server.js"
   },
   "author": "Issam Jourhbiri",
   "license": "ISC",
